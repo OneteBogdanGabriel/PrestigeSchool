@@ -14,6 +14,8 @@
  * @package WordPress
  */
 
+define('WP_MEMORY_LIMIT', '64M');
+ 
 // ** Heroku Postgres settings - from Heroku Environment ** //
 $db = parse_url($_ENV["DATABASE_URL"]);
 
