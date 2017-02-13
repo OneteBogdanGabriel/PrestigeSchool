@@ -1,0 +1,5 @@
+#wave_header{width:100%; display:block; overflow:auto}
+ .waiting {background:url(animatedEllipse.gif)  center no-repeat; min-height:100px}
+#search {float:right; display:inline-block}
+#wave_table ul li {display:inline; float:left; width:180px; height:200px; padding:5px; margin:5px; font-size:12px}
+#resetAllProducts {cursor:pointer}
